@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferdie's Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h3 class="heading-tertiary">Prawns</h3>
+            </div>
+
+             <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="about.html" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="navbar-link">Contact</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="reservation.html" class="navbar-link-book">Book</a>
+                </li>
+            </ul>
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <div class="header-container">
+            <div class="video">
+                <video loop muted autoplay id="video">
+                    <source src="images/video.mp4" type="video/mp4">
+                        This file type is not supported
+                </video>
+            </div>
+            <div class="header-box">
+                <h1 class="heading-primary">
+                    Best <br> <span id="restaurant">Prawns</span> <br> in town
+                </h1>
+               
+                <a href="reservation.html" class="book-now">Book Now</a> 
+            </div>
+        </div>
+    </section>
+    
+    <section class="menu">
+        <div class="container">
+            <div class="menu-heading">Prawns</div>
+    </div>
+        
+        <div class="item-image">
+            <img src="images/prawns.jpg" height="600px" width="600px">
+        </div>
+            
+            <div class="meal-price">
+        <p> From R90</p>
+        </div>
+            
+            <div class="item-info">
+            <p>Serving size 6/12/18 prawns</p>
+        </div>
+        
+        <div class="item-meal-info">
+        <p>Choose between 6, 12 & 18 of our delicious Prawns based with Garlic, peri-peri or lemon and herb souse</p>
+        
+        </div>
+            
+           <div class="meal-selection">
+                <h2>How Many prawns do you want?</h2>
+        </div>
+               <div class="meal-selection-items">
+               <input id="check-01" type="checkbox">
+               <lable for="check-01">6 prawns</lable>
+               <br>
+               <input id="check-02" type="checkbox">
+               <lable for="check-02">12 prawns</lable>
+               <br>
+               <input id="check-03" type="checkbox">
+               <lable for="check-03">18 prawns</lable>
+               <br>
+            </div> 
+        
+            <div class="meal-selection">
+                <h2>What Souse do you want?</h2>
+        </div>
+               <div class="meal-selection-items">
+               <input id="check-01" type="checkbox">
+               <lable for="check-01">Garlic</lable>
+               <br>
+               <input id="check-02" type="checkbox">
+               <lable for="check-02">Peri-Peri</lable>
+               <br>
+               <input id="check-03" type="checkbox">
+               <lable for="check-03">Garlic & Herb</lable>
+               <br>
+            </div> 
+        <textarea placeholder="Special instructions"></textarea>
+                      <a class="button" href="confirmaation.html">Place order</a>
+    </section>
+    </body>
+</html>
